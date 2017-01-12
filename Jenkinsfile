@@ -1,6 +1,6 @@
 
   node('java') {
-	  git
+	  
 	  echo ${env.JOB_NAME}
 	stage("Tests") {
           sh 'pwd'
