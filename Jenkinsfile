@@ -1,7 +1,7 @@
 
   node('java') {
 	  
-	  echo ${env.JOB_NAME}
+	  echo env.JOB_NAME
 	stage("Tests") {
           sh 'pwd'
 	  sh 'ls'
