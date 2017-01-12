@@ -4,7 +4,6 @@
           sh 'pwd'
 	  sh 'ls'
 	  sh 'ls ..'
-		
           sh 'ls -LRl'
 	  sh 'ls -LRl .. '
 		
