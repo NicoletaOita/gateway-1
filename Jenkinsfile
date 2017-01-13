@@ -8,7 +8,7 @@
 	  sh 'ls ..'
           sh 'ls -LRl'
 	  sh 'ls -LRl .. '
-		
+	  echo "-------------------------------------------------------"	
 	  sh 'mvn -q -B -U install -DskipTests -DskipITs -P-docker'
 		
 	}
